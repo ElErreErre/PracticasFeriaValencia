@@ -2,7 +2,7 @@
 
 ## 📝 Descripción del Proyecto / Prácticas
 
-Este repositorio contiene el trabajo realizado durante mis prácticas en **Feria Valencia** en el periodo de **19/05/2025** a **10/06/2025**. El objetivo principal de estas prácticas fue el aprendizaje de MJML y diseño de archivos de los mimsos.
+Este repositorio contiene el trabajo realizado durante mis prácticas en **Feria Valencia** en el periodo de **[Fecha de Inicio]** a **[Fecha de Fin]**. El objetivo principal de estas prácticas fue **[Describe brevemente el objetivo general de tus prácticas, p. ej., "aplicar conocimientos de desarrollo web en un entorno real", "adquirir experiencia en gestión de bases de datos", "desarrollar funcionalidades específicas para un producto existente", etc.]**.
 
 ## ✨ Objetivos Alcanzados / Tareas Realizadas
 
