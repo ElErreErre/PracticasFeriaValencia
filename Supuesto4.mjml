@@ -1,4 +1,25 @@
 <mjml>
+<mj-head>
+    <mj-style>
+      /* Estilo por defecto (para pantallas mayores a 320px) */
+      .mi-boton-responsive table {
+        width: 195px !important;
+      }
+      .mi-boton-responsive a {
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      /* Media Query para pantallas de 320px o menos */
+      @media only screen and (max-width: 320px) {
+        .mi-boton-responsive table {
+          width: 80% !important;
+        }
+        .mi-boton-responsive a {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
   <mj-body>
     <mj-section>
       <mj-column width="100%">
@@ -26,7 +47,7 @@
 
     <mj-section>
         <mj-column width="100%">
-          <mj-divider border-color="black"></mj-divider>
+          <mj-divider></mj-divider>
 
         <mj-text font-size="30px" font-family="helvetica"><center><br></br>¿ENTRADAS GRATIS?<br></br></center></mj-text>
         <mj-text font-size="20px" font-family="helvetica"><center>HAS LEIDO BIEN, ¡ENTRADAS GRATIS!</center></mj-text>
@@ -42,7 +63,7 @@
 
         <mj-column width="100%">
         <mj-text></mj-text>
-          <mj-button width="195px">
+          <mj-button align="center" css-class="mi-boton-responsive">
             ¡PARTICIPA AQUÍ!
           </mj-button>
         </mj-column>
