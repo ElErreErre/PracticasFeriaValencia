@@ -20,23 +20,28 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body>
-    <mj-section>
+  <mj-body background-color="#BFB9B9">
+  <mj-section>
+    <mj-column vertical-align="middle">
+      <mj-text align="left" color="#54595F" padding-right="0px" padding-bottom="0px" padding-top="0px"> Feria 2 Ruedas València, 15 Nov.- 17 Nov. 2025</mj-text>
+    </mj-column>
+  </mj-section>
+    <mj-section background-color="white">
       <mj-column width="100%">
         <mj-image width="600px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg"></mj-image>
         
         </mj-column>
         <mj-column width="100%" background-color="black">
-        <mj-text font-size="28px" color="white" font-family="helvetica"><br>2 RUEDAS</mj-text>
-        <mj-text font-size="20px" color="white" font-family="helvetica">Salón de la Moto y la Bici de València</mj-text>
+        <mj-text font-size="28px" color="white" font-family="sans-serif"><br>2 RUEDAS</mj-text>
+        <mj-text font-size="20px" color="white" font-family="sans-serif">SALÓN DE LA MOTO<BR>  Y LA BICI DE VALÈNCIA</mj-text>
         <mj-text font-size="20px" color="white" font-family="helvetica"><u>14-16</u> NOV -2025</mj-text>
         <mj-divider border-color="white"></mj-divider>
         </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section background-color="white">
         <mj-column>
-          <mj-image src="https://binn.wpenginepowered.com/wp-content/uploads/2024/11/motogp-1024x576.jpg" alt="Imagen de MotoGP">
+          <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/img1_2ruedas1.jpg">
         </mj-column>
 
         <mj-column>
@@ -45,7 +50,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section>
+    <mj-section background-color="white">
         <mj-column width="100%">
           <mj-divider></mj-divider>
 
@@ -63,12 +68,29 @@
 
         <mj-column width="100%">
         <mj-text></mj-text>
-          <mj-button align="center" css-class="mi-boton-responsive">
+          <mj-button align="center" css-class="mi-boton-responsive" href="https://www.motogp.com/es/news/official-communications">
             ¡PARTICIPA AQUÍ!
           </mj-button>
         </mj-column>
       
     </mj-section>
 
+    <mj-section background-color="#555555" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle" width="30%">
+        <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" border="none" padding-left="20px" padding-right="0px" padding-bottom="10px" padding-top="10px"></mj-image>
+      </mj-column>
+      <mj-column width="20%"></mj-column>
+      <mj-column vertical-align="middle" width="50%">
+        <mj-social align="right" font-size="13px" icon-size="25px" mode="horizontal" padding-left="5px" padding-right="20px" padding-bottom="0px" padding-top="0px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/feria_valencia" src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" icon-size="21px" icon-height="25px" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" background-color="#555555"> </mj-social-element>
+          <mj-social-element name="youtube" href="https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC2c4KYjrdeyt-W2ZH86Bsgw%3Fcbrd%3D1&gl=ES&m=0&pc=yt&hl=es&src=1" background-color="#555555" > </mj-social-element>
+          <mj-social-element name="linkedin" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F318933%2Fadmin%2F" background-color="#555555"> </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section></mj-section>
   </mj-body>
 </mjml>
