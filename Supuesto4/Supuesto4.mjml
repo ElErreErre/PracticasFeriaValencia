@@ -28,7 +28,7 @@
   </mj-section>
     <mj-section background-color="white">
       <mj-column width="100%">
-        <mj-image width="600px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg"></mj-image>
+        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg"></mj-image>
         
         </mj-column>
         <mj-column width="100%" background-color="black">
@@ -45,8 +45,8 @@
         </mj-column>
 
         <mj-column>
-          <mj-text font-size="13px" align="justify" font-family="helvetica">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEl Gran Premio Motul de la Comunitat Valenciana volverá los días 14, 15 y 16 de noviembre de 2025 al Circuit Ricardo Tormo. Será como siempre el broche de oro a la temporada 2025 de MotoGP.</mj-text>
-          <mj-text font-size="13px" align="justify" font-family="helvetica">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEl trazado de Cheste decidirá las clasificaciones finales de Moto3, Moto2 y de MotoGP en un año muy especial que supondrá el retorno del Mundial de Motociclismo a su casa en Valencia, al Circuit Ricardo Tormo.</mj-text>
+          <mj-text font-size="13px" align="justify" font-family="helvetica">El Gran Premio Motul de la Comunitat Valenciana volverá los días 14, 15 y 16 de noviembre de 2025 al Circuit Ricardo Tormo. Será como siempre el broche de oro a la temporada 2025 de MotoGP.</mj-text>
+          <mj-text font-size="13px" align="justify" font-family="helvetica">El trazado de Cheste decidirá las clasificaciones finales de Moto3, Moto2 y de MotoGP en un año muy especial que supondrá el retorno del Mundial de Motociclismo a su casa en Valencia, al Circuit Ricardo Tormo.</mj-text>
       </mj-column>
     </mj-section>
 
@@ -59,7 +59,7 @@
         </mj-column>
 
         <mj-column width="45%">
-          <mj-text font-size="13px" align="justify" font-family="helvetica"><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDesde Salón de la Moto y la Bici de valència puedes conseguir 2 entradas para ir presencialmente al evento más importante del año de MotoGP participando en nuestro sorteo.<br><br><br><br></mj-text>
+          <mj-text font-size="13px" align="justify" font-family="helvetica"><br><br>Desde Salón de la Moto y la Bici de valència puedes conseguir 2 entradas para ir presencialmente al evento más importante del año de MotoGP participando en nuestro sorteo.<br><br><br><br></mj-text>
         </mj-column>
 
         <mj-column width="45%">
