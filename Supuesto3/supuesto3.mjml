@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="sans-serif" color="#333333"></mj-text>
+      <mj-section padding="0"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#E0E0CE">
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0px" width="900px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera Expojove 2024"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" border-radius="0px 0px 20px 20px" padding="20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SERVICIOS ESENCIALES DE EXPOSICIÓN</mj-text>
+        <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
+        <mj-image src="https://images.unsplash.com/photo-1564980245582-dc1a1af5620e?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen servicio expositor" height="250px" padding-top="20px" padding-bottom="20px"></mj-image>
+      </mj-column>
+      <mj-column width="100%" padding-left="20px" padding-right="20px">
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Alquiler de Espacio / Superficie</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>Espacio en Pabellón.</li>
+            <li>Montaje de Stand (opcional).</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">2. Visibilidad y Promoción</mj-text>
+        <mj-text font-size="12px">
+          <ul>
+            <li>Plataforma de Promoción.</li>
+            <li>Conexión Directa con el Público.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px"></mj-section>
+
+    <mj-section background-color="#FFFFFF" border-radius="20px" padding="20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SERVICIOS LOGÍSTICOS Y OPERATIVOS</mj-text>
+        <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
+        <mj-image src="https://images.pexels.com/photos/5025630/pexels-photo-5025630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen servicios logísticos" padding-top="20px" padding-bottom="20px"></mj-image>
+      </mj-column>
+      <mj-column width="100%" padding-left="20px" padding-right="20px">
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Suministros Básicos</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>Suministro Eléctrico.</li>
+            <li>Suministro de Agua y Desagüe.</li>
+            <li>Conexión a Internet (Wi-Fi/Cable).</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">2. Infraestructura y Mobiliario</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>Mobiliario.</li>
+            <li>Decoración y Complementos.</li>
+            <li>Cuelgues y Estructuras.</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">3. Asesoramiento y Soporte</mj-text> <mj-text font-size="13px">
+          <ul>
+            <li>Portal del Expositor Online.</li>
+            <li>Atención Personalizada.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px"></mj-section>
+
+    <mj-section background-color="#FFFFFF" border-radius="20px 20px 0px 0px" padding="20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SOLICITA LOS SERVICIOS</mj-text>
+        <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
+        <mj-image src="https://images.unsplash.com/photo-1605152276897-4f618f831968?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VydmljaW9zfGVufDB8fDB8fHww" alt="imagen servicios" height="275px" padding-top="20px" padding-bottom="20px"></mj-image>
+      </mj-column>
+      <mj-column width="100%" padding-left="20px" padding-right="20px">
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Formulario de Inscripción</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>El primer paso es solicitar y completar el formulario de inscripción como expositor en la web de Expojove o contactando con Feria Valencia.</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">2. Adjudicación de Espacio</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>Una vez confirmada la participación y el espacio, se proporcionará acceso al Portal del Expositor de Feria Valencia.</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">3. Catálogo de Servicios</mj-text>
+        <mj-text font-size="13px" padding-bottom="10px">
+          <ul>
+            <li>Dentro de este portal, el expositor encontrará el Catálogo de Servicios de Feria Valencia, donde podrá seleccionar y contratar los servicios adicionales que necesite (electricidad, mobiliario, internet, etc.).</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">4. Contacto Directo</mj-text>
+        <mj-text font-size="13px">
+          <ul>
+            <li>Para cualquier necesidad específica o duda, los expositores pueden contactar directamente con la Central de Servicios de Feria Valencia o el equipo de la feria Expojove.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#000000" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="#FFFFFF" padding-bottom="10px">
+          ¡ACTUALÍZATE EN NUESTRAS REDES SOCIALES!
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding-bottom="20px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="twitter" href="https://x.com/Feria_Valencia" background-color="#55acee"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/" background-color="#C13584"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValencia" background-color="#FF0000"></mj-social-element>
+        </mj-social>
+        <mj-text align="center" font-size="14px" color="#FFFFFF" padding-bottom="10px">
+          © 2025 EXPOJOVE.
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#FFFFFF" padding-top="10px">
+          Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
+        </mj-text>
+        <mj-text align="center" font-size="12px" color="#CCCCCC" padding-top="10px">
+          <a href="URL_POLITICA_PRIVACIDAD" style="color: #CCCCCC; text-decoration: none;">Política de Privacidad</a> | <a href="URL_TERMINOS_USO" style="color: #CCCCCC; text-decoration: none;">Términos de Uso</a> | <a href="URL_DAR_DE_BAJA" style="color: #CCCCCC; text-decoration: none;">Darse de Baja</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
