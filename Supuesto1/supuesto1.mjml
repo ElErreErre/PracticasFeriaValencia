@@ -1,0 +1,134 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text color="#FFFFFF"></mj-text> 
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#025f35">
+    <mj-section>
+      <mj-column>
+        <mj-image width="700px" href="https://www.saloncomicvalencia.com/" padding="0px" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/BannerFeriaComic.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#003e29">
+      <mj-column>
+        <mj-text font-size="15px">
+          <b>¡Bienvenido al Salón del Cómic de València 2025 {Nombre}!</b>
+        </mj-text>
+        <mj-text font-size="12px">
+          Este año, el cómic vuelve a ser protagonista con un programa repleto de actividades que giran en torno a los grandes nombres de la narrativa gráfica. Autores de renombre internacional compartirán sus experiencias en charlas, mesas redondas y firmas de ejemplares, creando un espacio de diálogo y reflexión en torno al cómic como medio de expresión artística y cultural.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+          <mj-image padding-left="0px" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/stand-SalonComic.jpg" alt="stand feria del cómic" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      
+    </mj-section>
+
+    <mj-section background-color="#003e29">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="28px">AUTORES INVITADOS</mj-text>
+        <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image padding="12%" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/VincentLemireimg.jpg" alt="Autor invitado 1" />
+        <mj-text align="center" font-size="15px">Vicent Lemire</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image padding="12%" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/JimBishopimg.jpg" alt="Autor invitado 2" />
+        <mj-text align="center" font-size="15px">Jim Bishop</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-image padding="12%" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/javiReyimg.jpg" alt="Autor invitado 3" />
+        <mj-text align="center" font-size="15px">Javi Rey</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/invitados-2025/">
+            ¡Más información!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      
+    </mj-section>
+
+    <mj-section background-color="#003e29">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="28px">ACTIVIDADES 2025</mj-text>
+        <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
+        <mj-text></mj-text>
+      </mj-column>
+
+      <mj-column width="35%" padding-left="25px">
+        <mj-text font-size="18px"><br>• Charlas<br></mj-text>
+        <mj-text font-size="18px"><br>• Programa del Salón<br></mj-text>
+        <mj-text font-size="18px"><br>• Firmas de autores<br></mj-text>
+        <mj-text></mj-text>
+      </mj-column>
+
+      <mj-column width="65%">
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/actividadesFeria.jpg" alt="Actividades Feria" />
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/avance-programacion-2025//">
+            ¡Más información!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    
+
+    <mj-section>
+      
+    </mj-section>
+
+    <mj-section background-color="#003e29">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="28px">
+          ¡COMPRA YA TUS ENTRADAS!
+        </mj-text>
+        <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
+        <mj-text></mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image src="entradas.png" alt="" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-size="16px"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
+        </mj-text>
+        <mj-text>Para mas información pulsa el siguiente botón:</mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/visitar/">
+            ¡Más información!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" background-color="#0A1A0A" padding="20px 0"> 
+    <mj-column padding-top="20px">
+        <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
+          ¡No te pierdas nada siguenos en nuestras redes sociales!
+        </mj-text>
+        <mj-social font-size="18px" icon-size="32px" mode="horizontal" align="center" padding-bottom="15px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/ExpoJoveFV" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/expojove_valencia/" background-color="#C13584"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/ExpoJoveFV" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/@FeriaValenciaTV" background-color="#FF0000"></mj-social-element>
+          </mj-social>
+        <mj-text align="center" font-size="12px" color="#cccccc" font-family="Montserrat, sans-serif" padding-top="10px">
+          2025-2026 Salón del Cómic<br />
+          Feria Valencia, Av. de las Ferias, s/n, 46035 Valencia
+        </mj-text>
+          <mj-image width="140px" href="https://www.feriavalencia.com" src="https://media.feriavalencia.com/mail/marketing/2017/forinvest/img/logofv100F.png" alt="Logo Feria Valencia" align="center" padding="10px 20px"></mj-image>
+
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

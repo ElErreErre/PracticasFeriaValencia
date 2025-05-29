@@ -28,7 +28,7 @@
   </mj-section>
     <mj-section background-color="white">
       <mj-column width="100%">
-        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg"></mj-image>
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto4/Cabecera_Feria2Ruedas.jpg"></mj-image>
         
         </mj-column>
         <mj-column width="100%" background-color="black">
@@ -41,7 +41,7 @@
 
     <mj-section background-color="white">
         <mj-column>
-          <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/img1_2ruedas1.jpg">
+          <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto4/imagen_exposicion2ruedas.jpg" alt="Imagen Feria 2 ruedas">
         </mj-column>
 
         <mj-column>
@@ -63,7 +63,7 @@
         </mj-column>
 
         <mj-column width="45%">
-          <mj-image src="https://s7g10.scene7.com/is/image/ktm/Brad%20Binder_Red%20Bull%20KTM_MotoGP_RC16:Medium?wid=1838&hei=1379&dpr=off" alt="Imagen de moto GP" />
+          <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto4/imagen_MotoGP.jfif" alt="Imagen de moto GP" />
         </mj-column>
 
         <mj-column width="100%">

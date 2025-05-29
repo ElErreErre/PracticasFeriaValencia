@@ -9,7 +9,7 @@
 
     <mj-section padding="0">
       <mj-column>
-        <mj-image padding="0px" width="900px" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera Expojove 2024"></mj-image>
+        <mj-image padding="0px" width="900px" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto3/Cabecera_Email_Expojove_2024.jpg"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -17,7 +17,7 @@
       <mj-column width="100%">
         <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SERVICIOS ESENCIALES DE EXPOSICIÓN</mj-text>
         <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
-        <mj-image src="https://images.unsplash.com/photo-1564980245582-dc1a1af5620e?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen servicio expositor" height="250px" padding-top="20px" padding-bottom="20px"></mj-image>
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto3/imagen_Exposici%C3%B3n.avif" height="250px" padding-top="20px" padding-bottom="20px"></mj-image>
       </mj-column>
       <mj-column width="100%" padding-left="20px" padding-right="20px">
         <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Alquiler de Espacio / Superficie</mj-text>
@@ -44,7 +44,7 @@
       <mj-column width="100%">
         <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SERVICIOS LOGÍSTICOS Y OPERATIVOS</mj-text>
         <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
-        <mj-image src="https://images.pexels.com/photos/5025630/pexels-photo-5025630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen servicios logísticos" padding-top="20px" padding-bottom="20px"></mj-image>
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto3/imagen_Servicios.jpg" alt="Imagen servicios logísticos" padding-top="20px" padding-bottom="20px"></mj-image>
       </mj-column>
       <mj-column width="100%" padding-left="20px" padding-right="20px">
         <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Suministros Básicos</mj-text>
@@ -80,7 +80,7 @@
       <mj-column width="100%">
         <mj-text align="center" font-size="25px" font-weight="bold" padding-bottom="10px">SOLICITA LOS SERVICIOS</mj-text>
         <mj-divider border-color="#eeeeee" border-width="3px"></mj-divider>
-        <mj-image src="https://images.unsplash.com/photo-1605152276897-4f618f831968?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2VydmljaW9zfGVufDB8fDB8fHww" alt="imagen servicios" height="275px" padding-top="20px" padding-bottom="20px"></mj-image>
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto3/imagen_Servivios2.avif" alt="imagen servicios" height="275px" padding-top="20px" padding-bottom="20px"></mj-image>
       </mj-column>
       <mj-column width="100%" padding-left="20px" padding-right="20px">
         <mj-text font-size="15px" font-weight="bold" padding-bottom="5px">1. Formulario de Inscripción</mj-text>
