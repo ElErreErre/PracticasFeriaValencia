@@ -110,6 +110,10 @@
             <li>Para cualquier necesidad específica o duda, los expositores pueden contactar directamente con la Central de Servicios de Feria Valencia o el equipo de la feria Expojove.</li>
           </ul>
         </mj-text>
+
+        <mj-button href="https://www.expojove.com/es/expositores/" color="#ffffff" font-size="16px" padding-top="20px" padding-bottom="10px" border-radius="5px">
+          Accede al Portal del Expositor
+        </mj-button>
       </mj-column>
     </mj-section>
 
