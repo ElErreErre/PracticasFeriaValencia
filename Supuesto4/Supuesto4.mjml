@@ -1,5 +1,5 @@
 <mjml>
-<mj-head>
+  <mj-head>
     <mj-style>
       /* Estilo por defecto (para pantallas mayores a 320px) */
       .mi-boton-responsive table {

@@ -1,5 +1,25 @@
 <mjml>
   <mj-head>
+    <mj-style>
+      /* Estilo por defecto (para pantallas mayores a 320px) */
+      .mi-boton-responsive table {
+        width: 195px !important;
+      }
+      .mi-boton-responsive a {
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      /* Media Query para pantallas de 320px o menos */
+      @media only screen and (max-width: 320px) {
+        .mi-boton-responsive table {
+          width: 80% !important;
+        }
+        .mi-boton-responsive a {
+          width: 100% !important;
+          
+        }
+      }
+    </mj-style>
     <mj-attributes>
       <mj-text color="#FFFFFF"></mj-text> 
     </mj-attributes>
@@ -16,7 +36,7 @@
         <mj-text font-size="15px">
           <b>¡Bienvenido al Salón del Cómic de València 2025 {Nombre}!</b>
         </mj-text>
-        <mj-text font-size="12px">
+        <mj-text font-size="12px" align="justify">
           Este año, el cómic vuelve a ser protagonista con un programa repleto de actividades que giran en torno a los grandes nombres de la narrativa gráfica. Autores de renombre internacional compartirán sus experiencias en charlas, mesas redondas y firmas de ejemplares, creando un espacio de diálogo y reflexión en torno al cómic como medio de expresión artística y cultural.
         </mj-text>
       </mj-column>
@@ -48,7 +68,7 @@
         <mj-text align="center" font-size="15px">Javi Rey</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/invitados-2025/">
+        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/invitados-2025/">
             ¡Más información!
         </mj-button>
       </mj-column>
@@ -76,7 +96,7 @@
         <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/actividadesFeria.jpg" alt="Actividades Feria" />
       </mj-column>
       <mj-column width="100%">
-        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/avance-programacion-2025//">
+        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/avance-programacion-2025//">
             ¡Más información!
         </mj-button>
       </mj-column>
@@ -96,15 +116,15 @@
         <mj-text></mj-text>
       </mj-column>
       <mj-column width="50%">
-        <mj-image src="entradas.png" alt="" />
+        <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/entradas.png" alt="" />
       </mj-column>
       <mj-column width="50%">
-        <mj-text font-size="16px"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
+        <mj-text font-size="16px" align="justify"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
         </mj-text>
         <mj-text>Para mas información pulsa el siguiente botón:</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-button border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/visitar/">
+        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/visitar/">
             ¡Más información!
         </mj-button>
       </mj-column>
