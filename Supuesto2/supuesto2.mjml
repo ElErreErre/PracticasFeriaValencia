@@ -52,8 +52,8 @@
 
     <mj-section padding-top="0px" background-color="#4f4f4f" padding="20px 0"> 
         <mj-column width="100%" background-color="#fff">
-            <mj-text align="center">Gracias por tu confianza y por ser parte de Cevisama.</mj-text>
-            <mj-text align="center">Atentamente, El Equipo de Cevisama</mj-text>
+            <mj-text align="center"><br/>Gracias por tu confianza y por ser parte de Cevisama.</mj-text>
+            <mj-text align="center">Atentamente, El Equipo de Cevisama<br><bR></mj-text>
         </mj-column>
         <mj-column padding-top="20px">
             <mj-text align="center" font-size="14px" color="#ffffff" font-family="Montserrat, sans-serif" padding-bottom="15px">
