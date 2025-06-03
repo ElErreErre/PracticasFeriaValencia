@@ -71,7 +71,7 @@ Creado con **Figma**. Se definió la cabecera y el footer, el resto está en pro
 
 ### Responsive avanzado con MJML
 
-MJML es responsive por defecto. Se aplicó una *media query* a un botón que no funcionaba correctamente. Por lo demás, el sistema se comporta adecuadamente.
+MJML es responsive por defecto. Se aplicó una *media query* a un botón que no funcionaba correctamentey al tamaño del texto en diferentes tamaños de pantalla. Por lo demás, el sistema se comporta adecuadamente.
 
 ---
 

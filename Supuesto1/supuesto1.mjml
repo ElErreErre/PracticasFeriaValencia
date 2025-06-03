@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-style>
+    <mj-breakpoint width="490px" /><mj-style>
       /* Estilo por defecto (para pantallas mayores a 320px) */
       .mi-boton-responsive table {
         width: 195px !important;
@@ -19,9 +19,55 @@
           
         }
       }
+
+      /* Clases para ocultar/mostrar elementos (¡esta es la clave ahora!) */
+      @media only screen and (max-width: 490px) {
+        .desktop-only {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+          mso-hide: all !important; /* Para Outlook */
+          font-size: 0; /* Asegura que no ocupe espacio si hay texto */
+          line-height: 0; /* Asegura que no ocupe espacio si hay texto */
+        }
+        /* Para que los elementos .mobile-only aparezcan */
+        .mobile-only {
+          display: block !important; /* O inline-block si es un elemento más pequeño */
+          max-height: none !important;
+          overflow: visible !important;
+          mso-hide: none !important; /* Para Outlook */
+        }
+      }
+
+      @media only screen and (min-width: 491px) {
+        .mobile-only {
+          display: none !important;
+          max-height: 0px !important;
+          overflow: hidden !important;
+          mso-hide: all !important; /* Para Outlook */
+          font-size: 0; /* Asegura que no ocupe espacio si hay texto */
+          line-height: 0; /* Asegura que no ocupe espacio si hay texto */
+        }
+        /* Para que los elementos .desktop-only aparezcan */
+        .desktop-only {
+          display: block !important; /* O inline-block */
+          max-height: none !important;
+          overflow: visible !important;
+          mso-hide: none !important; /* Para Outlook */
+        }
+      }
+
+      /* Asegura que los elementos ocultos en Outlook no tengan padding o altura */
+      [owa] .desktop-only, [owa] .mobile-only { 
+          mso-hide: all !important; 
+          font-size: 0 !important;
+          line-height: 0 !important;
+      }
+
     </mj-style>
     <mj-attributes>
       <mj-text color="#FFFFFF"></mj-text> 
+      <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center"></mj-button>
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#025f35">
@@ -36,9 +82,15 @@
         <mj-text font-size="15px">
           <b>¡Bienvenido al Salón del Cómic de València 2025 {Nombre}!</b>
         </mj-text>
-        <mj-text font-size="12px" align="justify">
-          Este año, el cómic vuelve a ser protagonista con un programa repleto de actividades que giran en torno a los grandes nombres de la narrativa gráfica. Autores de renombre internacional compartirán sus experiencias en charlas, mesas redondas y firmas de ejemplares, creando un espacio de diálogo y reflexión en torno al cómic como medio de expresión artística y cultural.
+        
+        <mj-text font-size="12px" align="justify" css-class="desktop-only">
+            Este año, el cómic vuelve a ser protagonista con un programa repleto de actividades que giran en torno a los grandes nombres de la narrativa gráfica. Autores de renombre internacional compartirán sus experiencias en charlas, mesas redondas y firmas de ejemplares, creando un espacio de diálogo y reflexión en torno al cómic como medio de expresión artística y cultural.
         </mj-text>
+        
+        <mj-text font-size="14px" align="justify" css-class="mobile-only">
+            Este año, el cómic vuelve a ser protagonista con un programa repleto de actividades que giran en torno a los grandes nombres de la narrativa gráfica. Autores de renombre internacional compartirán sus experiencias en charlas, mesas redondas y firmas de ejemplares, creando un espacio de diálogo y reflexión en torno al cómic como medio de expresión artística y cultural.
+        </mj-text>
+
       </mj-column>
       <mj-column width="50%">
           <mj-image padding-left="0px" src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/stand-SalonComic.jpg" alt="stand feria del cómic" />
@@ -51,7 +103,8 @@
 
     <mj-section background-color="#003e29">
       <mj-column width="100%">
-        <mj-text align="center" font-size="28px">AUTORES INVITADOS</mj-text>
+        <mj-text align="center" font-size="28px" css-class="desktop-only">AUTORES INVITADOS</mj-text>
+        <mj-text align="center" font-size="20px" css-class="mobile-only">AUTORES INVITADOS</mj-text>
         <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
         <mj-text></mj-text>
       </mj-column>
@@ -68,7 +121,7 @@
         <mj-text align="center" font-size="15px">Javi Rey</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/invitados-2025/">
+        <mj-button css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/invitados-2025/">
             ¡Más información!
         </mj-button>
       </mj-column>
@@ -80,15 +133,20 @@
 
     <mj-section background-color="#003e29">
       <mj-column width="100%">
-        <mj-text align="center" font-size="28px">ACTIVIDADES 2025</mj-text>
+        <mj-text align="center" font-size="28px" css-class="desktop-only">ACTIVIDADES 2025</mj-text>
+        <mj-text align="center" font-size="20px" css-class="mobile-only">ACTIVIDADES 2025</mj-text>
         <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
         <mj-text></mj-text>
       </mj-column>
 
       <mj-column width="35%" padding-left="25px">
-        <mj-text font-size="18px"><br>• Charlas<br></mj-text>
-        <mj-text font-size="18px"><br>• Programa del Salón<br></mj-text>
-        <mj-text font-size="18px"><br>• Firmas de autores<br></mj-text>
+        <mj-text font-size="18px" css-class="desktop-only"><br>• Charlas<br></mj-text>
+        <mj-text font-size="18px" css-class="desktop-only"><br>• Programa del Salón<br></mj-text>
+        <mj-text font-size="18px" css-class="desktop-only"><br>• Firmas de autores<br></mj-text>
+        
+        <mj-text font-size="16px" css-class="mobile-only"><br>• Charlas<br></mj-text>
+        <mj-text font-size="16px" css-class="mobile-only"><br>• Programa del Salón<br></mj-text>
+        <mj-text font-size="16px" css-class="mobile-only"><br>• Firmas de autores<br></mj-text>
         <mj-text></mj-text>
       </mj-column>
 
@@ -96,7 +154,7 @@
         <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/actividadesFeria.jpg" alt="Actividades Feria" />
       </mj-column>
       <mj-column width="100%">
-        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/avance-programacion-2025//">
+        <mj-button css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/avance-programacion-2025//">
             ¡Más información!
         </mj-button>
       </mj-column>
@@ -109,8 +167,11 @@
 
     <mj-section background-color="#003e29">
       <mj-column width="100%">
-        <mj-text align="center" font-size="28px">
-          ¡COMPRA YA TUS ENTRADAS!
+        <mj-text align="center" font-size="28px" css-class="desktop-only">
+            ¡COMPRA YA TUS ENTRADAS!
+        </mj-text>
+        <mj-text align="center" font-size="20px" css-class="mobile-only">
+            ¡COMPRA YA TUS ENTRADAS!
         </mj-text>
         <mj-divider border-color="#FFFFFF" border-width="3px"></mj-divider>
         <mj-text></mj-text>
@@ -119,12 +180,16 @@
         <mj-image src="https://mis-imagenes-supuestos.s3.us-east-1.amazonaws.com/imagenes.supuesto1/entradas.png" alt="" />
       </mj-column>
       <mj-column width="50%">
-        <mj-text font-size="16px" align="justify"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
+        <mj-text font-size="16px" align="justify" css-class="desktop-only"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
         </mj-text>
-        <mj-text>Para mas información pulsa el siguiente botón:</mj-text>
+        <mj-text font-size="15px" css-class="desktop-only">Para mas información pulsa el siguiente botón:</mj-text>
+        
+        <mj-text font-size="14px" align="justify" css-class="mobile-only"><br><br>  Aprovecha el momento y compra tu entrada ahora mismo para evitar colas insufribles en taquillas.
+        </mj-text>
+        <mj-text font-size="14px" css-class="mobile-only">Para mas información pulsa el siguiente botón:</mj-text>
       </mj-column>
       <mj-column width="100%">
-        <mj-button font-size="12px" border-radius="10px" border="1px solid white" background-color="#025f35" align="center" css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/visitar/">
+        <mj-button css-class="mi-boton-responsive" href="https://www.saloncomicvalencia.com/visitar/">
             ¡Más información!
         </mj-button>
       </mj-column>
